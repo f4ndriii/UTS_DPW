@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px dotted; */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(189, 190, 189);
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+header, main, main, footer {
+  padding: 20px;
+}
+
+#beranda > img {
+  height: 200px;
+  margin-left: 10px;
+  
+}
+
+#beranda {
+  display: flex;
+}
+
+#keahlian > ul {
+  display: flexbox;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+main > section {
+  margin-bottom: 20px;
+}
+
+#proyek > div {
+  display: flexbox;
+  flex-direction: row;
+}
